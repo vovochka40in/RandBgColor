@@ -8,10 +8,7 @@ function randomBgColor() {
   red = (Math.round((Math.random() * max))).toString();
   green = (Math.round((Math.random() * max))).toString();
   blue = (Math.round((Math.random() * max))).toString();
-  // opacity = ((Math.random())).toString();
-  // color = "background-color: rgba("+red+", "+green+", "+blue+", "+opacity+");";
   color = "background-color: rgb("+red+", "+green+", "+blue+");";
-  // console.log(color);
   return color;
 }
 
